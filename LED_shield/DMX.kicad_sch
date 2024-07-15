@@ -1905,7 +1905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be2d49d-fc97-496c-978f-015a6bf548b2")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0405"
 			(at 157.48 105.41 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0410")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -1971,7 +1971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "118811f0-30fb-4bc5-8a75-e54ef0c0213d")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0406"
 			(at 157.48 161.29 0)
 			(effects
 				(font
@@ -2021,7 +2021,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0413")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1362ef9f-5143-461a-b964-8ba29f03fbd3")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0407"
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0403")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -2103,7 +2103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab3fa1b-4670-4548-93c6-fa174a9cdd58")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0402"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -2153,7 +2153,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0411")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -2165,7 +2165,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2015e063-6792-4e7e-a8c9-8156beac9e2d")
@@ -2235,7 +2235,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30502673-622c-4713-922b-823973021850")
@@ -2305,7 +2305,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "371bcb28-f6c7-451a-82aa-7608471fbf59")
@@ -2375,11 +2375,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38021df2-40a5-4081-9e75-36f89d86532c")
-		(property "Reference" "C404"
+		(property "Reference" "C402"
 			(at 147.701 109.2778 0)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "C404")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -2454,11 +2454,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49fe7d44-c50d-4378-a702-5d4285324936")
-		(property "Reference" "C403"
+		(property "Reference" "C401"
 			(at 147.701 40.6978 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 		(instances
 			(project ""
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "C403")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2537,7 +2537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607fd769-2251-4ba5-b999-6577185418e6")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0404"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -2587,7 +2587,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0407")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c5ce0f-7ac7-48dc-9b57-2102a1f4fc41")
@@ -2673,7 +2673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "675a06a5-7c78-4827-875b-7ad50eb4ff1e")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0409"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 		(instances
 			(project ""
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0402")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ee129c1-2a3a-471b-a3a2-2d0f1823d5f8")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0401"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -2789,7 +2789,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0408")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -2805,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81149839-1bb7-41f6-84f3-d603f29ccb73")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0412"
 			(at 241.3 158.75 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0406")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -2867,11 +2867,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88497891-4149-4986-b1fd-453eb0da25b4")
-		(property "Reference" "C401"
+		(property "Reference" "C403"
 			(at 231.521 63.5578 0)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 		(instances
 			(project ""
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "C401")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943e7df2-e3c1-45b0-806a-6943290f1bc1")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0403"
 			(at 157.48 36.83 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 		(instances
 			(project ""
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0409")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e840c33-2f80-4078-867b-d94ac85fcc31")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0408"
 			(at 228.6 143.51 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0405")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -3069,7 +3069,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6827eee-0020-41ff-87a9-51b9a8b1fc6f")
@@ -3139,7 +3139,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71142dc-5285-471b-a532-ceddcf9fe184")
@@ -3209,7 +3209,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85e7060-0d97-4b63-94ba-9b63f9d587e8")
@@ -3279,11 +3279,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba047a3d-cc45-457d-93ec-52018fa444f5")
-		(property "Reference" "C402"
+		(property "Reference" "C404"
 			(at 231.521 132.1378 0)
 			(effects
 				(font
@@ -3337,7 +3337,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "C402")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -3349,7 +3349,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2b3342-a936-4d44-b53e-096ae40869b2")
@@ -3442,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa259d4-8084-4d0d-a640-2646c24fc9d5")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0411"
 			(at 241.3 105.41 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 		(instances
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0404")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -3508,7 +3508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca9d5cc-ae5b-449a-8d77-c935e6f27e7a")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0410"
 			(at 241.3 90.17 0)
 			(effects
 				(font
@@ -3558,7 +3558,7 @@
 		(instances
 			(project ""
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/f6681d72-fe2e-40df-a5f5-abccfdd072e0"
-					(reference "#PWR0401")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3570,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f152ac36-4eac-4a97-b37f-b1fcb6809e97")
@@ -3659,7 +3659,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f29bc51c-8ed8-469c-8be2-288795bf9bfc")
