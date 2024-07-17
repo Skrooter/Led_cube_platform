@@ -5468,6 +5468,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 60.96) (xy 354.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54c724d-2b0a-41fd-a8c1-e9d91c1bb328")
+	)
+	(wire
+		(pts
 			(xy 96.52 63.5) (xy 144.78 63.5)
 		)
 		(stroke
@@ -5626,9 +5636,9 @@
 		)
 		(uuid "ff4a44a6-dc97-489b-8177-611a45545ecf")
 	)
-	(text "Note: to run regulators intependently\n....."
+	(text "Note: to run regulators intependently\n<Insert helpful text for how resistor and jumper config>"
 		(exclude_from_sim no)
-		(at 96.52 238.76 0)
+		(at 63.5 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5943,17 +5953,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbe0f030-f082-4dd3-a1f6-0d63f88b90a4")
-	)
-	(label "VIN"
-		(at 83.82 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "feee7fb4-c63b-4ec6-b4b3-f19d170248db")
 	)
 	(label "HO_{1}"
 		(at 224.79 60.96 0)
@@ -9618,6 +9617,72 @@
 			(project "LED_shield"
 				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/e840c4ed-09f9-4c51-97a0-e8f2864c789b"
 					(reference "R317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 354.33 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff7b0e4-b243-4fff-8ae9-8e116de7d951")
+		(property "Reference" "#FLG0307"
+			(at 354.33 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 354.33 56.8269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 354.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e44bbd-7171-4d0a-9b62-6fcf8697ee14")
+		)
+		(instances
+			(project "LED_shield"
+				(path "/1ea5d53d-438b-4931-b69a-e3b85be65776/e840c4ed-09f9-4c51-97a0-e8f2864c789b"
+					(reference "#FLG0307")
 					(unit 1)
 				)
 			)
