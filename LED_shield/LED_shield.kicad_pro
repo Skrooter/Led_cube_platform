@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|65000000|62000000|655f0b11-8804-470b-8b36-efe9b34e01fe|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|120500000|54650572|909212d8-ad0a-41c5-b341-0bf097a8c8bc|76480258-18d8-4bc3-8d42-a4dda9059356",
-        "silk_edge_clearance|120500000|75349426|7002c05d-cfa6-4b82-9d9b-e15e481cde5c|35aecd58-975b-4772-83c2-6e945ee08d84"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -80,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -93,12 +89,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -216,7 +212,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -526,7 +522,7 @@
       },
       {
         "netclass": "high_voltage",
-        "pattern": "/power/VIN*"
+        "pattern": "*VIN*"
       },
       {
         "netclass": "power",
@@ -705,6 +701,30 @@
     [
       "e840c4ed-09f9-4c51-97a0-e8f2864c789b",
       "power"
+    ],
+    [
+      "156257bd-e623-42b7-ac56-4691a34e7916",
+      "DCDC0"
+    ],
+    [
+      "d7448860-4103-48e8-9f80-95ab28f05e94",
+      "DCDC1"
+    ],
+    [
+      "1c08a009-198f-43f7-8708-fe9162167235",
+      "DCDC2"
+    ],
+    [
+      "c5d13b95-b629-467f-87f8-0b3f3a9ebb72",
+      "DCDC3"
+    ],
+    [
+      "b7dbf37f-d5cb-4685-b9a3-f5efa9990cf1",
+      "DCDC4"
+    ],
+    [
+      "b8d97433-cca3-43bc-98c6-1973c495da29",
+      "DCDC5"
     ]
   ],
   "text_variables": {}
